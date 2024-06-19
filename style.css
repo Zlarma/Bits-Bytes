@@ -1,0 +1,107 @@
+body{
+    height: 105vh;
+    background: linear-gradient(to bottom, rgba(196, 209, 206, 0.705), white, rgba(200, 212, 208, 0.692));
+    text-align: center;
+}
+
+#text{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium';
+    -webkit-text-stroke: black 3px;
+    color: white;
+    text-shadow: -2px 7px 0px black;
+}
+#text2{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: -70px;
+    font-family: 'Franklin Gothic Medium';
+    -webkit-text-stroke: black 1px;
+    color: white;
+    text-shadow: -1px 3px 0px black;
+    
+}
+#text3{
+    text-align: center;
+    margin-left: 300px;
+    font-family: 'Lucida Sans Regular'; 
+    margin-right: 300px;
+    font-size: 20px;
+
+}
+
+#list{
+    font-family: 'Lucida Sans Regular'; 
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+    text-align: start;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2{
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke: black 1px;
+    text-shadow: -1px 3px 0px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    border: 6px black solid;
+    border-radius: 300px;
+    background: linear-gradient(to bottom, white, rgb(150, 221, 221), rgb(160, 211, 241));
+    border-top: 40px;
+    box-shadow: 0px 3px 10px black;
+}
+    
+a{
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+    border: 2px black solid;
+    text-decoration: dashed;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-text-stroke: black 2px;
+    font-family:fantasy;
+    color: white;
+    background: linear-gradient(to bottom, white, rgb(104, 135, 175));
+    
+    filter: opacity(60%);
+
+
+}
+
+a:hover{
+    transition: 0.5s;
+    filter: brightness(110%);
+    box-shadow: 0px 3px 13px rgb(63, 77, 68);
+
+}
+a:active{
+    transition: 0.1s;
+    filter: brightness(100%);
+    box-shadow: 0px 1px 3px black;
+
+}
+
+#carta{
+    position: relative;
+    top: -1000px;
+    filter: opacity(10%);
+}
